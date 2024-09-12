@@ -1,0 +1,433 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    margin: 0px;
+}
+
+nav ul {
+    display: flex; /* Usamos flexbox para manejar la alineación */
+    align-items: center; /* Centra los elementos verticalmente */
+    margin: 0px;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.headName {
+    margin-right: auto; /* Empuja el .headName a la izquierda */
+}
+
+
+nav ul li{
+    text-decoration: none;
+    list-style-type: none; /* Elimina las viñetas */
+}
+
+nav ul li a{
+    display: inline;
+    padding: 0.0rem 1rem;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+    color: rgb(25, 25, 25);
+    font-weight: 200;
+    font-size: 1.2rem;
+    cursor: pointer;
+   
+}
+
+#it {
+    color: #8e5ff5;
+    font-weight: 400;
+}
+
+.headName li {
+    display: inline;
+    padding: 0.orem 1rem;
+    letter-spacing: 2px;
+    color: rgb(25, 25, 25);
+}
+
+
+div h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #3e3e3e;
+    font-weight: 800;
+    margin: 0;
+   
+}
+ 
+div #imAgus{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    position: relative;
+    bottom: 3.5rem;
+    left: 34.3rem;
+    color: #3e3e3e;
+    font-weight: 800;
+    width: 50%;
+} 
+
+div p{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #3e3e3e;
+    font-weight: 500;
+    padding-left: 10rem;
+    padding-right: 40rem;
+}
+
+a{
+    text-decoration: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 2.4rem;
+    font-size: 2rem;
+    text-align: center;
+
+    margin: 0;
+
+}
+
+.btn{
+    text-align: center;
+    background: #8e5ff5;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+/*HOME*/
+
+.scroll {
+    width: 25px;
+    height: 40px;
+    border: 2px solid #3e3e3e;
+    border-radius: 60px;
+    position: relative;
+    left: 50%;
+    top: 20%;
+    overflow: hidden;
+}
+
+
+.scroll::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3e3e3e;
+    border-radius: 50%;
+    opacity: 1;
+    animation: wheel 1.3s infinite;
+    -webkit-animation: wheel 1.3s infinite
+}
+
+@keyframes wheel {
+    to {
+        opacity: 0;
+        top: 27px
+    }
+}
+
+@-webkit-keyframes wheel {
+    to {
+        opacity: 0;
+        top: 27px
+    }
+}
+
+.home {
+    padding: 5rem;
+    position: relative;
+    text-align: center;
+    color: white; 
+    z-index: 1;
+    height: 70%;
+}
+  
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        /* Gradiente que va de la imagen de fondo a transparente */
+        linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 90%, rgb(255, 255, 255) 100%),
+        /* Imagen de fondo */
+        url('/PortfolioAgustinAvelino/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+/*ABOUT*/
+
+.about h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: left;
+    padding-left: 10rem;
+    padding-right: 40rem;
+    color: #3e3e3e;
+    font-weight: 800;
+    padding-top: 5rem;
+}
+
+.about .btn{
+    font-weight: 400   
+}
+
+.about a{
+   
+    font-size: 1.0rem;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 40rem;
+
+}
+
+.about img{
+    max-width: 20%;
+    height: auto;
+    position: absolute;
+    bottom: 10rem;
+    left: 5rem;
+    border-radius: 8px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+
+}
+
+.line{
+    content: '';
+    position: absolute;
+    margin-bottom: 1rem;
+    height: 5px;
+    width: 3rem;
+    background: #7843E9;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+
+}
+
+/*SKILLS*/
+
+.skills h2{
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #3e3e3e;
+    font-weight: 800;
+}
+
+.skillsSection{
+    margin-top: 7rem;
+
+}
+
+.skills {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajusta las columnas automáticamente */
+    gap: 16px; /* Espacio entre los elementos de la grilla */
+    padding: 16px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, #8e5ff5 100%);
+  
+    padding-left: 20rem;
+    padding-right: 20rem;
+    position: relative; /* Necesario para posicionar el pseudo-elemento */
+    overflow: hidden; /* Asegura que el pseudo-elemento no se desborde */
+}
+
+/* Agrega animación para el pseudo-elemento */
+.skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        /* Gradiente que va de la imagen de fondo a transparente */
+        linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 75%, rgb(255, 255, 255) 100%),
+        /* Imagen de fondo */
+        url('/PortfolioAgustinAvelino/img/background2.jpg');
+    background-size: cover;
+    background-position: center; /* Posiciona la imagen de fondo en el centro */
+    background-repeat: repeat-y; /* Repite la imagen verticalmente */
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+    animation: scrollBackground 30s linear infinite; /* Ajusta la duración y tipo de animación */
+}
+
+/* Define la animación */
+@keyframes scrollBackground {
+    0% {
+        background-position: center top;
+    }
+    100% {
+        background-position: center bottom;
+    }
+}
+
+.salesforce,
+.frontend,
+.backend,
+.database {
+    background-color: #f4f4f4; /* Color de fondo para cada categoría */
+    border-radius: 8px; /* Esquinas redondeadas */
+    padding: 16px;
+    
+}
+
+.salesforce h2,
+.frontend h2,
+.backend h2,
+.database h2 {
+    margin-top: 0;
+    
+}
+
+.skills__skill {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #e0e0e0; /* Color de fondo para cada habilidad */
+   /* Borde alrededor de cada habilidad */
+    border-radius: 4px; /* Esquinas redondeadas para las habilidades */
+    padding: 8px;
+    margin: 8px; /* Espacio entre habilidades */
+}
+
+/*PROJECTS*/
+
+.projects {
+    background: linear-gradient(to bottom, #8e5ff5 0%, #6a3bcb 100%);
+}
+
+.projects h1{
+    color: white;
+    padding-top: 2rem;
+    text-align: left;
+    padding-left: 10rem;
+    padding-right: 40rem;
+}
+
+.swiffy-slider{
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+/*CONTACT*/
+
+.contact {
+    padding: 2rem;
+    padding-bottom: 9rem;
+    position: relative;
+    text-align: center;
+    color: white; 
+    z-index: 1;
+    height: 70%;
+    background: linear-gradient(to right, rgba(245,245,245,0.8), rgba(245,245,245,0.8)),url(../../assets/svg/common-bg.svg);
+    background-size: cover;
+    background-position: center
+}
+  
+
+.contact::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        /* Gradiente que va de la imagen de fondo a transparente */
+        linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 90%),
+        /* Imagen de fondo */
+        url('/PortfolioAgustinAvelino/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Coloca el pseudo-elemento detrás del contenido */
+}
+
+
+
+
+.contact__form-container {
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    background: white;
+    padding: 4rem; /* Reducido de 10rem a 5rem */
+    margin-top: 2rem;
+    max-width: 30rem; /* Reducido de 40rem a 30rem */
+    height: auto;
+    text-align: right;
+    border-radius: 5px;
+    margin: 0 auto; /* Reducido el margen superior */
+}
+
+.contact__form-field {
+    margin-bottom: 1rem; /* Reducido de 4rem a 2rem */
+}
+
+.contact__form-label {
+    color: #666;
+    font-size: 0.5rem; /* Reducido de 1rem a 0.9rem */
+    letter-spacing: 0.3px; /* Reducido de 1px a 0.5px */
+    font-weight: 400;
+    display: block;
+    text-align: left;
+}
+
+.contact__form-input {
+    padding: 0.6rem; /* Reducido de 1rem a 0.8rem */
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 0.6rem; /* Reducido de 1rem a 0.9rem */
+    letter-spacing: 0px;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+.contact__btn {
+    width: 20%; /* Reducido de 50% a 60% */
+    padding: 1.2rem 0.6rem; /* Reducido el padding */
+    font-size: 0.8rem; /* Reducido de 1.6rem a 1.4rem */
+}
+
+/*FOOTER*/
+
+
+.main-footer {
+    padding: 5%;
+    background: #3e3e3e;
+    color: #6c6c6c
+}
+
