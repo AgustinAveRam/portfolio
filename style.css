@@ -175,7 +175,7 @@ a{
         /* Gradiente que va de la imagen de fondo a transparente */
         linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 90%, rgb(255, 255, 255) 100%),
         /* Imagen de fondo */
-        url('/PortfolioAgustinAvelino/img/background.jpg');
+        url('/portfolio/img/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -279,7 +279,7 @@ a{
         /* Gradiente que va de la imagen de fondo a transparente */
         linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 75%, rgb(255, 255, 255) 100%),
         /* Imagen de fondo */
-        url('/PortfolioAgustinAvelino/img/background2.jpg');
+        url('/portfolio/img/background2.jpg');
     background-size: cover;
     background-position: center; /* Posiciona la imagen de fondo en el centro */
     background-repeat: repeat-y; /* Repite la imagen verticalmente */
@@ -370,7 +370,7 @@ a{
         /* Gradiente que va de la imagen de fondo a transparente */
         linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0) 90%),
         /* Imagen de fondo */
-        url('/PortfolioAgustinAvelino/img/background.jpg');
+        url('/portfolio/img/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
