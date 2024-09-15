@@ -7,6 +7,7 @@ body{
     margin: 0px;
 }
 
+
 nav ul {
     display: flex; /* Usamos flexbox para manejar la alineación */
     align-items: center; /* Centra los elementos verticalmente */
@@ -35,11 +36,16 @@ nav ul li a{
     font-weight: 200;
     font-size: 1.2rem;
     cursor: pointer;
+    transition: color 0.3s ease; /* Añade transición suave para el color */
    
 }
 
+nav ul li a:hover {
+    color: #466bff;
+}
+
 #it {
-    color: #8e5ff5;
+    color: #466bff;
     font-weight: 400;
 }
 
@@ -51,7 +57,7 @@ nav ul li a{
 }
 
 
-div h1{
+section h1{
     font-family: "Bebas Neue", sans-serif;
     font-size: 6rem;
     text-transform: uppercase;
@@ -76,15 +82,15 @@ div #imAgus{
     width: 50%;
 } 
 
-div p{
+.about-text p{
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.5rem;
     letter-spacing: 0.5px;
     text-align: left;
     color: #3e3e3e;
     font-weight: 500;
-    padding-left: 10rem;
-    padding-right: 40rem;
+
+
 }
 
 
@@ -93,25 +99,42 @@ a{
     text-decoration: none;
     font-family: "Bebas Neue", sans-serif;
     font-size: 1.5rem;
-    padding: 1rem 2.4rem;
-
+    padding: 1rem 2rem;
     text-align: center;
-
-
-
 }
 
-.btn{
+.averam-letsrock-btn{
     text-align: center;
-    background: #8e5ff5;
+    background: #466bff;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
     display: inline-block;
-  
-    border-radius: 5px;
+
+    border-radius: 100px;
     box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
 }
+
+.averam-letsrock-btn:hover{
+    text-align: center;
+    background: #0033ff;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
+}
+
+.averam-contact-btn{
+    /* font-size: 1rem; */
+    text-align: center;
+    background-color: #466bff;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+    background: #343434;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
 
 /*HOME*/
 
@@ -121,7 +144,7 @@ a{
     border: 2px solid #3e3e3e;
     border-radius: 60px;
     position: relative;
-    top: 20%;
+    top: 25%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -156,7 +179,7 @@ a{
     }
 }
 
-.home {
+.averam-home {
     padding: 5rem;
     
     text-align: center;
@@ -166,7 +189,7 @@ a{
 }
   
 
-.home::before {
+.averam-home::before {
     content: "";
     position: absolute;
     top: 0;
@@ -175,7 +198,7 @@ a{
     height: 100%;
     background: 
         /* Gradiente que va de la imagen de fondo a transparente */
-        linear-gradient(to bottom, rgba(237, 237, 237, 0.599) 90%, rgb(255, 255, 255) 100%),
+        linear-gradient(to bottom, rgba(237, 237, 237, 0.599) 100%, rgb(255, 255, 255) 100%),
         /* Imagen de fondo */
         url('/portfolio/img/backgound3.svg');
     background-size: cover;
@@ -185,43 +208,70 @@ a{
 }
 /*ABOUT*/
 
-.about h1{
+.about-content {
+    margin: 0 10% 10% 10%;
+    display: grid;
+    grid-template-columns: 55% 40%; /* Define dos columnas de igual ancho */
+    gap: 5%; /* Espacio entre las columnas */
+}
+
+.about-text {
+    grid-column: 1; /* Coloca el contenido en la primera columna */
+}
+
+.about-skills {
+    grid-column: 2; /* Coloca el contenido en la segunda columna */
+}
+
+.averam-skill{
+    text-align: center;
+    background: #5f7df5;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.averam-about h1{
     font-family: "Bebas Neue", sans-serif;
     font-size: 6rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: left;
-    padding-left: 10rem;
-    padding-right: 40rem;
+    margin: 0;
+
     color: #3e3e3e;
     font-weight: 800;
-    padding-top: 5rem;
+  
 }
 
-.about .btn{
+.averam-about .btn{
     font-weight: 400   
 }
 
-.about a{
+.averam-skill{
    
-    font-size: 1.0rem;
-    padding: 1rem 1rem;
     font-size: 1rem;
     text-align: center;
-    margin-left: 10rem;
-    margin-right: 40rem;
+    background-color: #466bff;
+    border-radius: 100px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
 
 }
 
-.about img{
-    max-width: 20%;
-    height: auto;
-    position: absolute;
-    bottom: 10rem;
-    left: 5rem;
-    border-radius: 8px;
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
 
+/* .averam-cv-btn{
+    margin-left: 2rem;
+} */
+
+.averam-about a:hover{
+    text-align: center;
+    background: #0033ff;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.25);
 }
 
 .line{
@@ -230,7 +280,7 @@ a{
     margin-bottom: 1rem;
     height: 5px;
     width: 3rem;
-    background: #7843E9;
+    background: #5f7df5;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 5px;
@@ -239,7 +289,7 @@ a{
 
 /*SKILLS*/
 
-.skills h2{
+.averam-skills h2{
     
     font-family: "Bebas Neue", sans-serif;
     font-size: 2rem;
@@ -250,18 +300,18 @@ a{
     font-weight: 800;
 }
 
-.skillsSection{
+.averam-skillsSection{
     margin-top: 7rem;
 
 }
 
-.skills {
+.averam-skills {
     margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* Establece 4 columnas */
     gap: 16px; /* Espacio entre los elementos de la grilla */
     padding: 16px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, #8e5ff5 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 40%, #5f7df5 100%);
     padding-left: 20rem;
     padding-right: 20rem;
     position: relative; /* Necesario para posicionar el pseudo-elemento */
@@ -269,7 +319,7 @@ a{
 }
 
 /* Agrega animación para el pseudo-elemento */
-.skills::before {
+.averam-skills::before {
     content: "";
     position: absolute;
     top: 0;
@@ -316,7 +366,7 @@ a{
     
 }
 
-.skills__skill {
+.averam-skills__skill {
     font-family: "Bebas Neue", sans-serif;
     background-color: #e0e0e0; /* Color de fondo para cada habilidad */
    /* Borde alrededor de cada habilidad */
@@ -327,12 +377,13 @@ a{
 
 /*PROJECTS*/
 
-.projects {
-    background: linear-gradient(to bottom, #8e5ff5 0%, #6a3bcb 100%);
+.averam-projects {
+    background: linear-gradient(to bottom, #5f7df5 0%, #6a3bcb 100%);
 }
 
-.projects h1{
+.averam-projects h1{
     color: white;
+    margin: 0;
     padding-top: 2rem;
     text-align: left;
     padding-left: 10rem;
@@ -346,7 +397,7 @@ a{
 
 /*CONTACT*/
 
-.contact {
+.averam-contact {
     padding: 2rem;
     padding-bottom: 9rem;
     position: relative;
@@ -360,7 +411,7 @@ a{
 }
   
 
-.contact::before {
+.averam-contact::before {
     content: "";
     position: absolute;
     top: 0;
