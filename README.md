@@ -1,10 +1,10 @@
-# Portfolio
+# Portfolio 💻
 
-Hi! I'm Agustín, an IT Analyst with more than 3 years of experience working in systems. I specialize in backend and frontend technologies, with a strong interest in Salesforce, .NET, and APIs. Here you'll find more information about me.
+Hi! I'm **Agustín Avelino**, an **IT Analyst** with more than 3 years of experience working in systems. I specialize in backend and frontend technologies, with a strong interest in Salesforce, .NET, and APIs. Here you'll find more information about me.
 
-## Tech Stack
+## Tech Stack 🛠️
 
-### Salesforce: 
+### Salesforce ☁️: 
 - **X1 Certified**
 - **X2 years of experience**
 - **Declarative & programmatic solutions**
@@ -16,32 +16,36 @@ Hi! I'm Agustín, an IT Analyst with more than 3 years of experience working in 
 - **Visualforce pages**
 - **REST/SOAP integration**
 
-### Frontend:
+### Frontend 🎨:
 - **JavaScript** (Vanilla, JQuery, React JS)
 - **HTML** (Vanilla, Boostrap, Razor, Ionic Framework)
 - **CSS** (Vanilla)
 
-### Backend:
+### Backend ⚙️:
 - **C#** (.NET Core, Entity Framework, LinQ)
 - **Java**
 
-### API:
+### API 🔗:
 - **RESTful**
 
-### Data Base:
+### Data Base 🗄️:
 - **SQL**
 - **MySQL**
 - **T-SQL**
 
-### Deploy:
+### Deploy 📈:
 - **IIS Web & ftp/sftp**
 - **AWS VM**
 
-### Repos:
+### Repos 🗃️:
 - **Azure**
 - **Git**
 
-### Languages
+### Extra 💡:
+- I have also worked on some **Visual Basic**, **Google Firebase**
+and **Mongo DB**
+
+### Languages 🌎:
 
 - Spanish (Native)
 - English (Full-Professional)
