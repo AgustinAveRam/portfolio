@@ -6,13 +6,13 @@ Hi! I'm **Agustín Avelino**, an **IT Analyst** with more than 3 years of experi
 
 ### Salesforce ☁️: 
 - **X1 Certified**
-- **X2 years of experience**
 - **Declarative & programmatic solutions**
 - **Apex code**
 - **Test classes**
 - **Flows / Triggers**
 - **SOQL**
 - **LWC**
+- **Aura Components**
 - **Visualforce pages**
 - **REST/SOAP integration**
 
