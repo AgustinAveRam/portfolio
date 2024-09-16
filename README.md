@@ -47,5 +47,5 @@ and **Mongo DB**
 
 ### Languages 🌎:
 
-- Spanish (Native)
-- English (Full-Professional)
+- **Spanish** (Native)
+- **English** (Full-Professional)
