@@ -10,7 +10,7 @@ Hi! I'm Agustín, an IT Analyst with more than 3 years of experience working in 
 - **Tools:** Git, Visual Studio, Salesforce
 - **Integrations:** RESTful APIs
 
-- ## Languages
+## Languages
 
 - Spanish (Native)
 - English (Full-Professional)
