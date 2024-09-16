@@ -31,7 +31,6 @@ Hi! I'm **Agustín Avelino**, an **IT Analyst** with more than 3 years of experi
 ### Data Base 🗄️:
 - **SQL**
 - **MySQL**
-- **T-SQL**
 
 ### Deploy 📈:
 - **IIS Web & ftp/sftp**
