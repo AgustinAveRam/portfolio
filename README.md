@@ -1,6 +1,6 @@
 # Portfolio 💻
 
-Hi! I'm **Agustín Avelino**, an **IT Analyst** with more than 3 years of experience working in systems. I specialize in backend and frontend technologies, with a strong interest in Salesforce, .NET, and APIs. Here you'll find more information about me.
+Hi! I'm **Agustín Avelino**, an **IT Analyst** with more than 3 years of experience working in systems. I specialize in **backend and frontend technologies**, with a strong interest in **Salesforce**, **.NET**, and **APIs**. Here you'll find more information about me.
 
 ## Tech Stack 🛠️
 
